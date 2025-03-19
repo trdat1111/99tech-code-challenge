@@ -1,0 +1,27 @@
+{
+    "name": "problem5",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "tsc && node src/server.ts",
+        "compile": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "drizzle-orm": "^0.40.0",
+        "express": "^4.21.2",
+        "gel": "^2.0.1",
+        "mysql2": "^3.13.0"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.13.10",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.2"
+    }
+}
